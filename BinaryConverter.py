@@ -29,7 +29,7 @@ def binaryToDecimal():
 
     for digit in digitsArray:
         if (digit == 1):
-            binary += (pow(2, totalDigits) - 1)
+            binary += (pow(2, totalDigits-1))
         totalDigits -= 1
 
     print(str(number) + " is " + str(binary) + " in decimal.")
